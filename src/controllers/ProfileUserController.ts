@@ -7,7 +7,7 @@ class ProfileUserController {
 
     const user = await service.execute(req.user_id);
 
-    return res.json({ user });
+    return res.json(user);
   }
 }
 

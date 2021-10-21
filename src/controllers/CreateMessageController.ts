@@ -8,7 +8,7 @@ class CreateMessageController {
 
     const createMessage = await service.execute(message, req.user_id);
 
-    return res.json({ createMessage });
+    return res.json(createMessage);
   }
 }
 
